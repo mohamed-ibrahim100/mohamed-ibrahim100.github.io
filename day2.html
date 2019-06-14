@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>my first web application</title>
+</head>
+
+<p align = "middle">
+
+First Name:
+
+<input type ="text" id="FirstName" name="First name" ><br><br>
+<script type="text/javascript">  
+function getText(){  
+var firstName=document.getElementById("FirstName").value;
+if(firstName=="")
+alert("First Name is missing");
+else
+alert(firstName);  
+}  
+</script> 
+
+
+Secret pin:
+<input type ="text" name="secret pin"><br><br>
+
+
+Gender
+<label class="radio">
+    <input type="radio" name="answer">
+    male
+  </label>
+  <label class="radio">
+    <input type="radio" name="answer">
+    female<br><br>
+I am expert in 
+<input type="checkbox" name="vehicle" value="HTML"> HTML
+ <input type="checkbox" name="vehicle" value="CSS" checked> CSS<br><br>
+My field of study is
+<select name="course">
+
+  <option value="others">select your branch using select dropdown</option>
+  <option value="B.E.">B.E.</option>
+  <option value="undergraduate (Arts)">undergraduate (Arts)</option>
+  <option value="postgraduate (arts">postgraduate (arts)</option>
+</select><br><br>
+Tell more about yourself:
+
+<input style="height:100px;font-size:14pt;"><br><br>
+
+<input type="button" style="background-color:blue;color:white;width:150px;
+height:40px;" align = "left" value= "submit form">
+
+
+
+
+
+ 
+</p>
+  </label>
+</form>
+
+
+
+
+
+</style>
+
+</html>
